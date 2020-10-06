@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet/less" type="text/css" href="./assets/css/base.less" />
     <link rel="stylesheet/less" type="text/css" href="./assets/css/style.less" />
     <link rel="stylesheet/less" type="text/css" href="./assets/css/responsive.less" />
-    <link rel="stylesheet" href="./assets/js/jquery.js">
+    <!-- <link rel="stylesheet" href="./assets/js/jquery.js"> -->
     <script src="./assets/js/less.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css">
     <script>
         $(document).ready(function(){
             $("#search").click(function(){
@@ -64,9 +69,8 @@
             </div>
             <div class="header__nav-search">
                 <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
-                <button class="header__search-btn">
-                    <i class="header__search-btn-icon fas fa-search"></i>
-                </button>
+                </input>
+                <i class="header__search-btn-icon fas fa-search"></i>
             </div>
             <div class="header__nav-main-menu">
                 <ul class="header__nav-list">
@@ -222,16 +226,27 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="ads__main-wrap">
-                        <img src="./assets/images/quangcao1.png" alt="" class="ads__main-item">
+                        <img src="./assets/images/ads-1.jpg" alt="" class="ads__main-item">
                         <a href="" class="ads__main-item-button">Shop Now</a>
+                        <p>Two High-end Materials</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="ads__item">
-                        <img src="./assets/images/quangcao2.png" alt="" class="ads__phu-item">
                         <div class="ads__phu-wrap">
-                            <img src="./assets/images/quangcao3.png" alt="" class="ads__phu-item">
+                            <img src="./assets/images/ads-3.jpg" alt="" class="ads__phu-item">
+                            <div class="ads-text">
+                                <p class="ads-text-1">SMALL THING</p>
+                                <p class="ads-text-2">MAKE DIFFERENT</p>
+                            </div>
+                        </div>
+                        <div class="ads__phu-wrap">
+                            <img src="./assets/images/ads-2.jpg" alt="" class="ads__phu-item">
                             <div class="ads__main-item-button">Shop Now</div>
+                            <div class="ads-text">
+                                <p class="ads-text-1">FOLIO</p>
+                                <p class="ads-text-2">BACKPACK</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -248,7 +263,7 @@
             <!-- container-products -->
             <section class="container__products">
                 <div class="row">
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/suspendisse_id_volutpat.png" alt="ảnh suspendisse_id_volutpat" />
@@ -270,7 +285,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/lorem_ipsum_dolor.png" alt="ảnh lorem_ipsum_dolor" />
@@ -292,7 +307,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/proin_sed_nulla_mi.png" alt="ảnh proin_sed_nulla_mi" />
@@ -313,7 +328,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/aenean_placerat.png" alt="ảnh aenean_placerat" />
@@ -335,7 +350,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/suspendisse_id_volutpat2.png" alt="ảnh suspendisse_id_volutpat2" />
@@ -357,7 +372,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/lorem_ipsum_dolor2.png" alt="ảnh lorem_ipsum_dolor" />
@@ -379,7 +394,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/proin_sed_nulla_mi2.png" alt="ảnh proin_sed_nulla_mi" />
@@ -400,7 +415,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-xs-6 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3">
                         <div class="container__products-item">
                             <div class="container__products-img-wrap">
                                 <img class="container__products-img" src="./assets/images/aenean_placerat2.png" alt="ảnh aenean_placerat" />
@@ -426,117 +441,13 @@
             </section>
     </div>
     <!-- blog -->
-    <div class="blog-mb">
-        <div class="container ms-gutters">
-            <div class="blog__title">
-                <span class="blog__title-item">LATEST</span>
-                <span class="blog__title-item">NEWS & EVENTS</span>
-            </div>
-            <div class="row">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="col-xs-12">
-                                <section class="blog__item">
-                                    <div class="blog__item-img-wrap">
-                                        <img src="./assets/images/post1.png" alt="blog1" class="blog__item-img">
-                                        <div class="blog__item-date">
-                                            <span class="blog__item-month">Jan</span>
-                                            <span class="blog__item-day">23</span>
-                                        </div>
-                                    </div>
-                                    <a href="" class="blog__item-title">In commodo dolor vitae</a>
-                                    <span class="blog__item-des">
-                                        Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
-                                        Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                                    </span>
-                                    <div class="blog__item-review">
-                                        <div class="blog__item-comment">
-                                            <i class="far fa-comment"></i>
-                                            12
-                                        </div>
-                                        <div class="blog__item-heart">
-                                            <i class="far fa-heart"></i>
-                                            6
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-xs-12">
-                                <section class="blog__item">
-                                    <div class="blog__item-img-wrap">
-                                        <img src="./assets/images/post2.png" alt="blog2" class="blog__item-img">
-                                        <div class="blog__item-date">
-                                            <span class="blog__item-month">Jan</span>
-                                            <span class="blog__item-day">23</span>
-                                        </div>
-                                    </div>
-                                    <a href="" class="blog__item-title">Vivamus non dignissim elit</a>
-                                    <span class="blog__item-des">
-                                        Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
-                                        Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                                    </span>
-                                    <div class="blog__item-review">
-                                        <div class="blog__item-comment">
-                                            <i class="far fa-comment"></i>
-                                            12
-                                        </div>
-                                        <div class="blog__item-heart">
-                                            <i class="far fa-heart"></i>
-                                            6
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-xs-12">
-                                <section class="blog__item">
-                                    <div class="blog__item-img-wrap">
-                                        <img src="./assets/images/post3.png" alt="blog3" class="blog__item-img">
-                                        <div class="blog__item-date">
-                                            <span class="blog__item-month">Jan</span>
-                                            <span class="blog__item-day">23</span>
-                                        </div>
-                                    </div>
-                                    <a href="" class="blog__item-title">Ut lacinia erat ut diam volutpat</a>
-                                    <span class="blog__item-des">
-                                        Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
-                                        Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                                    </span>
-                                    <div class="blog__item-review">
-                                        <div class="blog__item-comment">
-                                            <i class="far fa-comment"></i>
-                                            12
-                                        </div>
-                                        <div class="blog__item-heart">
-                                            <i class="far fa-heart"></i>
-                                            6
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="blog">
         <div class="container">
             <div class="blog__title">
                 <span class="blog__title-item">LATEST</span>
                 <span class="blog__title-item">NEWS & EVENTS</span>
             </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="blog-content">
                     <section class="blog__item">
                         <div class="blog__item-img-wrap">
                             <img src="./assets/images/post1.png" alt="blog1" class="blog__item-img">
@@ -545,24 +456,24 @@
                                 <span class="blog__item-day">23</span>
                             </div>
                         </div>
-                        <a href="" class="blog__item-title">In commodo dolor vitae</a>
-                        <span class="blog__item-des">
-                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
-                            Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                        </span>
-                        <div class="blog__item-review">
-                            <div class="blog__item-comment">
-                                <i class="far fa-comment"></i>
-                                12
-                            </div>
-                            <div class="blog__item-heart">
-                                <i class="far fa-heart"></i>
-                                6
+                        <div class="blog__item-content">
+                            <a href="" class="blog__item-title">In commodo dolor vitae</a>
+                            <span class="blog__item-des">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                                Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </span>
+                            <div class="blog__item-review">
+                                <div class="blog__item-comment">
+                                    <i class="far fa-comment"></i>
+                                    12
+                                </div>
+                                <div class="blog__item-heart">
+                                    <i class="far fa-heart"></i>
+                                    6
+                                </div>
                             </div>
                         </div>
                     </section>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
                     <section class="blog__item">
                         <div class="blog__item-img-wrap">
                             <img src="./assets/images/post2.png" alt="blog2" class="blog__item-img">
@@ -571,24 +482,25 @@
                                 <span class="blog__item-day">23</span>
                             </div>
                         </div>
-                        <a href="" class="blog__item-title">Vivamus non dignissim elit</a>
-                        <span class="blog__item-des">
-                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
-                            Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                        </span>
-                        <div class="blog__item-review">
-                            <div class="blog__item-comment">
-                                <i class="far fa-comment"></i>
-                                12
-                            </div>
-                            <div class="blog__item-heart">
-                                <i class="far fa-heart"></i>
-                                6
+                        <div class="blog__item-content">
+                            <a href="" class="blog__item-title">Vivamus non dignissim elit</a>
+                            <span class="blog__item-des">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                                Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </span>
+                            <div class="blog__item-review">
+                                <div class="blog__item-comment">
+                                    <i class="far fa-comment"></i>
+                                    12
+                                </div>
+                                <div class="blog__item-heart">
+                                    <i class="far fa-heart"></i>
+                                    6
+                                </div>
                             </div>
                         </div>
                     </section>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                    
                     <section class="blog__item">
                         <div class="blog__item-img-wrap">
                             <img src="./assets/images/post3.png" alt="blog3" class="blog__item-img">
@@ -597,28 +509,50 @@
                                 <span class="blog__item-day">23</span>
                             </div>
                         </div>
-                        <a href="" class="blog__item-title">Ut lacinia erat ut diam volutpat</a>
-                        <span class="blog__item-des">
-                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
-                            Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                        </span>
-                        <div class="blog__item-review">
-                            <div class="blog__item-comment">
-                                <i class="far fa-comment"></i>
-                                12
-                            </div>
-                            <div class="blog__item-heart">
-                                <i class="far fa-heart"></i>
-                                6
+                        <div class="blog__item-content">
+                            <a href="" class="blog__item-title">Ut lacinia erat ut diam volutpat</a>
+                            <span class="blog__item-des">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                                Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </span>
+                            <div class="blog__item-review">
+                                <div class="blog__item-comment">
+                                    <i class="far fa-comment"></i>
+                                    12
+                                </div>
+                                <div class="blog__item-heart">
+                                    <i class="far fa-heart"></i>
+                                    6
+                                </div>
                             </div>
                         </div>
                     </section>
-                </div>
-            </div>
-            <div class="blog__load">
-                <div class="blog__load-item"></div>
-                <div class="blog__load-item blog__load-item--active"></div>
-                <div class="blog__load-item"></div>
+                    <section class="blog__item">
+                        <div class="blog__item-img-wrap">
+                            <img src="./assets/images/post2.png" alt="blog2" class="blog__item-img">
+                            <div class="blog__item-date">
+                                <span class="blog__item-month">Jan</span>
+                                <span class="blog__item-day">23</span>
+                            </div>
+                        </div>
+                        <div class="blog__item-content">
+                            <a href="" class="blog__item-title">Vivamus non dignissim elit</a>
+                            <span class="blog__item-des">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                                Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </span>
+                            <div class="blog__item-review">
+                                <div class="blog__item-comment">
+                                    <i class="far fa-comment"></i>
+                                    12
+                                </div>
+                                <div class="blog__item-heart">
+                                    <i class="far fa-heart"></i>
+                                    6
+                                </div>
+                            </div>
+                        </div>
+                    </section>
             </div>
         </div>
     </div>
@@ -761,7 +695,33 @@
             </div>
         </div>
     </div>
-
-    <script src="./assets/js/switchLink.js"></script>    
+    <script src="./assets/js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".blog-content").slick({
+                    speed: 300,
+                    dots: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                        },
+                        {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                        }
+                    ]
+                    });
+            });
+            
+    </script>
 </body>
 </html>
